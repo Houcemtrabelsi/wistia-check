@@ -1,0 +1,325 @@
+.Principal {
+    display: flex;
+    justify-content: stretch;
+    border: 1px  rgb(223, 208, 208);
+
+}
+.logo {
+    display: flex;
+    height: 116px;
+    width: 100%;
+    max-width: 180px;
+   
+    
+}
+.Bloc2 {
+    border: 1px solid rgb(223, 208, 208);
+    width: 80%;
+    height: 58;
+    
+}
+.Bloc2 a {
+    margin-right: 4%
+}
+.bloc21 {
+    display:flex;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(223, 208, 208);
+    flex-grow: 1;
+
+
+}
+
+.bloc22 {
+    display:flex;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(223, 208, 208);
+    flex-grow: 1;
+    background: rgb(226, 223, 223)
+
+}
+
+.Bloc3 {
+    display: flex;
+    border: solid blue;
+    width: 30%;
+    border: 1px solid rgb(223, 208, 208);
+
+    
+}
+.button1 {
+    flex-grow: 1;
+    border-left: 1px solid rgba(239, 239, 239, 1);
+    color: rgb(56, 101, 199);
+    background: white;
+}
+.button2 {
+    flex-grow: 1;
+    border-left: 1px solid rgba(239, 239, 239, 1);
+    color: rgb(90, 88, 88);
+    background: white;
+}
+
+
+/* partie 2 */
+.cadre {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    flex-flow: row wrap;
+    position: relative;
+    background: #CEA0AF;
+    
+}
+.intro a{
+    margin-top: 20%;
+    
+}
+.partie1{
+  display: flex;
+  flex-direction: column;
+width: 50%;
+
+
+}
+.intro {
+    width: 80%;
+    background: #CEA0AF;
+    font-size: 200%;
+
+   
+    
+    
+}
+
+.mal9ithach {
+    margin-right: 2%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+   margin-left: 50%;
+
+}
+.blanc{
+    color:white
+}
+.ligne1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+    margin-right: 1%
+}
+.button3{
+    flex-grow: 1;
+    border-left: 1px solid rgba(239, 239, 239, 1);
+    color: rgb(56, 101, 199);
+    background: white;
+    height: 70px;
+    width: 200px;
+    
+}
+
+
+
+
+
+/* partie3*/
+
+.ref3{
+    display: flex;
+    width: 100%;
+    height: 
+    border: 1px solid black;
+}
+.cadre1{
+    
+    padding: 45px 58px 50px;
+    background-color: #FED24A;
+
+}
+.cadre2{
+    
+    padding: 45px 58px 50px;
+    background-color: #51C29F;
+
+}
+.cadre3{
+    
+    padding: 45px 58px 50px;
+    background-color: #3EA9F5;
+
+}
+.free {
+    display: block;
+    padding: 17px 16px;
+    font-family: "Walsheim", sans-serif;
+    color: #2A2D35;
+    border-color: rgba(255,255,255,0.55);
+}
+
+.icon {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    max-width: 180px;
+   
+    
+}
+.titrea{
+    color: white
+}
+
+
+
+
+
+
+
+.ref4{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between; 
+
+}
+
+.logo1{
+    max-width: 160px;
+    padding: 0 30px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #9CA8B7;
+
+}
+
+
+
+
+.ref5{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-around;
+    margin-block-end: 5%
+
+}
+
+.cadre4{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadre5{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadre6{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.term{
+    background: #e8e7e6;
+    font-size: 18px;
+display: flex;
+justify-content: center;
+
+}
+
+
+
+
+
+
+.ref6{
+    display: flex;
+    background: #363945;
+    text-decoration-color: white; 
+    justify-content: space-around;
+    
+    
+}
+
+.base1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white
+
+
+
+}
+.base1 a:any-link {
+    color: #3ea9f5;
+  }
+.base2 a:any-link {
+    color: #b2b9c1;
+  }
+  .base3 a:any-link {
+    color: #b2b9c1;
+  }
+  .base4 a:any-link {
+    color: #b2b9c1;
+  }
+  .base5 a:any-link {
+    color: #b2b9c1;
+  }
+.base2{
+    display: flex;
+    flex-direction: column;
+    float:right;
+    color: white
+    
+    
+
+
+}
+.base3{
+    display: flex;
+    flex-direction: column;
+    float:right;
+    color: white
+
+
+}
+.base4{
+    display: flex;
+    flex-direction: column;
+    float:right;
+    color: white
+
+
+}
+.base5{
+    display: flex;
+    flex-direction: column;
+    float:right;
+    color: white;
+    margin-right: 30px
+
+
+}
+
+.ref7{
+    background: #363945;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b2b9c1;
+    height:100px;
+    border-top: 1px solid #b2b9c1
+
+
+
+}
